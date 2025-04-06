@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/devis-front/static/css/main.26f0c6bd.css",
-    "main.js": "/devis-front/static/js/main.0cb7ebe5.js",
+    "main.js": "/devis-front/static/js/main.66c0d8aa.js",
     "static/js/239.fcaddd2b.chunk.js": "/devis-front/static/js/239.fcaddd2b.chunk.js",
     "static/js/977.c7cbf7c7.chunk.js": "/devis-front/static/js/977.c7cbf7c7.chunk.js",
     "static/js/732.447e1da6.chunk.js": "/devis-front/static/js/732.447e1da6.chunk.js",
     "index.html": "/devis-front/index.html",
     "main.26f0c6bd.css.map": "/devis-front/static/css/main.26f0c6bd.css.map",
-    "main.0cb7ebe5.js.map": "/devis-front/static/js/main.0cb7ebe5.js.map",
+    "main.66c0d8aa.js.map": "/devis-front/static/js/main.66c0d8aa.js.map",
     "239.fcaddd2b.chunk.js.map": "/devis-front/static/js/239.fcaddd2b.chunk.js.map",
     "732.447e1da6.chunk.js.map": "/devis-front/static/js/732.447e1da6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26f0c6bd.css",
-    "static/js/main.0cb7ebe5.js"
+    "static/js/main.66c0d8aa.js"
   ]
 }
