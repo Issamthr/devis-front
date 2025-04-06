@@ -1,6 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 
+
+
 const DevisDetail = () => {
   const { id } = useParams();
   const devis = { id, clientNom: "Entreprise A", budget: 2500, details: "Site web e-commerce complet." };

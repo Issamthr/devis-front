@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div>
-      <h1>Bienvenue sur le site de gestion des devis</h1>
-      <Link to="/login">Se connecter</Link> | <Link to="/register">S'inscrire</Link>
+    <div className="home-container">
+      <img src="/logo.png" alt="Logo" className="logo" />
+      <h1>Bienvenue sur notre Générateur de Devis</h1>
+      <p>Créez, gérez et exportez vos devis facilement</p>
+      <div className="home-buttons">
+        <Link to="/login" className="btn">Se connecter</Link>
+        <Link to="/register" className="btn btn-outline">Créer un compte</Link>
+      </div>
     </div>
   );
 };

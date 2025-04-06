@@ -11,6 +11,8 @@ import DevisList from "./pages/DevisList";
 import DevisDetail from "./pages/DevisDetail";
 import { AuthProvider, useAuth } from "./context/AuthContext";
 
+
+
 const PrivateRoute = ({ children }) => {
   const { user } = useAuth();
   return user ? children : <Navigate to="/login" />;

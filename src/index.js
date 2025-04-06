@@ -1,11 +1,9 @@
-//Lance l'application React
-
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./styles.css"; // Import des styles globaux
+import App from "./App"; // Assure-toi que App.js existe bien
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
     <App />

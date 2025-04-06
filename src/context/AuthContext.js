@@ -1,10 +1,13 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 
+// Création du contexte d'authentification
 const AuthContext = createContext();
 
+// Fournisseur d'authentification
 export const AuthProvider = ({ children }) => {
   const [user, setUser] = useState(null);
 
+  // Au chargement, vérifier s'il y a un utilisateur stocké
   useEffect(() => {
     const storedUser = localStorage.getItem("user");
     if (storedUser) {
@@ -12,11 +15,13 @@ export const AuthProvider = ({ children }) => {
     }
   }, []);
 
+  // Fonction de connexion
   const login = (userData) => {
     setUser(userData);
     localStorage.setItem("user", JSON.stringify(userData));
   };
 
+  // Fonction de déconnexion
   const logout = () => {
     setUser(null);
     localStorage.removeItem("user");
@@ -29,4 +34,5 @@ export const AuthProvider = ({ children }) => {
   );
 };
 
+// Hook personnalisé pour accéder au contexte
 export const useAuth = () => useContext(AuthContext);
