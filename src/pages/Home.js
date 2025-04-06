@@ -5,7 +5,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div className="home-container">
-      <img src="/logo.png" alt="Logo" className="logo" />
+    <img src={`${process.env.PUBLIC_URL}/logo.png`} alt="Logo" className="logo" />
       <h1>Bienvenue sur notre Générateur de Devis</h1>
       <p>Créez, gérez et exportez vos devis facilement</p>
       <div className="home-buttons">

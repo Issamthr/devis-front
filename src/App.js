@@ -21,7 +21,7 @@ const PrivateRoute = ({ children }) => {
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/devis-front">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
