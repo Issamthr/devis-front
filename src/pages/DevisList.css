@@ -1,0 +1,63 @@
+.devis-list-container {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .search-input {
+    width: 100%;
+    max-width: 400px;
+    margin: 20px 0;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .devis-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  
+  .devis-card {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 14px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .devis-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .pdf-btn, .delete-btn {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+  
+  .pdf-btn {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .pdf-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c62828;
+  }
+  
